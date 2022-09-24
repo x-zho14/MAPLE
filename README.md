@@ -13,7 +13,7 @@ tqdm 4.50.2
 ```
 
 ## Command
-Below are the commands for replicating the results of IRM experiments. Sorry for the late release.
+Below are the commands for replicating the results of IRM experiments.
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python cnn_mnist_probability_1step_irm.py --coreset_size 15000 --train_epoch 150 --max_outer_it 30 --outer_lr 1.5 --batch_size 50000 --limit 50000 --iterative --start_coreset_size 15000 --score_update --irm_type irmv1
