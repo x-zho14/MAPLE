@@ -24,14 +24,14 @@ CUDA_VISIBLE_DEVICES=0 python cnn_mnist_probability_1step_irm.py --coreset_size 
 If you find this implementation is helpful to your work, please cite 
 
 ```BibTeX
-@inproceedings{zhou2022model,
-  title={Model Agnostic Sample Reweighting for Out-of-Distribution Learning},
-  author={Zhou, Xiao and Lin, Yong and Pi, Renjie and Zhang, Weizhong and Xu, Renzhe and Cui, Peng and Zhang, Tong},
+@inproceedings{coreset,
+  title={Probabilistic Bilevel Coreset Selection},
+  author={Zhou, Xiao and Pi, Renjie and Zhang, Weizhong and Lin, Yong and Zhang, Tong},
   booktitle={International Conference on Machine Learning},
-  pages={27203--27221},
   year={2022},
   organization={PMLR}
 }
+
 ```
 
 
